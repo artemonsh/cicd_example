@@ -1,0 +1,6 @@
+services:
+  backend:
+    image: my-backend-image:latest
+    ports:
+      - 80:8000
+    command: "python main.py"
