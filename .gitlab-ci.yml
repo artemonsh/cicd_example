@@ -16,4 +16,4 @@ test-job:
 deploy-job:
   stage: deploy
   script:
-    - docker compose up -d
+    - docker compose up -d #qwe
